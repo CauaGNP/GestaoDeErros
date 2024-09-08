@@ -8,13 +8,27 @@ main{
     align-items: center;
 }
 
+main h1 {
+    margin: 20px;
+}
+
 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 10px;
 }
 
 #voltarId{
     color: rgb(180, 180, 180);
     cursor: default;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
 }
