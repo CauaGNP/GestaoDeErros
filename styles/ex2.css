@@ -1,0 +1,36 @@
+h1{
+    margin: 12px 0px;
+    text-align: center;
+}
+
+main{
+    width: 370px;
+    margin: auto;
+    display: flex;
+    gap: 12px;
+}
+
+.imagem{
+    background-color: gray;
+    background-image: url(../images/fotoApresentação.jpeg);
+    background-size: cover;
+    width: 130px;
+    height: 150px;
+    margin-bottom: 12px;
+}
+
+input{
+    display: none;
+}
+
+label{
+    width: 130px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+label:hover{
+    background-color: rgb(173, 173, 173);
+}
