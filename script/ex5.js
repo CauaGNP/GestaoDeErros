@@ -1,6 +1,7 @@
 let check = document.querySelector('.checkbutton');
 let button = document.querySelector('#submitButton');
 let mainLogin = document.querySelector('#mainloginId');
+let mainDP = document.querySelector('#dadosPessoais');
 
 button.addEventListener('click', () => {
       let user = document.querySelector('#userId');
@@ -11,7 +12,8 @@ button.addEventListener('click', () => {
         password.value = '';
         user.focus();
       }else{
-        mainLogin.style.display = 'none' 
+        mainLogin.style.display = 'none'
+        mainDP.style.display = 'flex' 
       }
 })
 
@@ -26,3 +28,4 @@ check.addEventListener('click', () =>{
     }
 
 })
+
