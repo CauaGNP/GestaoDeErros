@@ -6,7 +6,9 @@ let mainDP = document.querySelector('#dadosPessoais');
 button.addEventListener('click', () => {
       let user = document.querySelector('#userId');
       let password = document.querySelector('#senhaId');
-      if ((user.value != 'cleber123' && user.value != 'Cleber123' )|| password.value != '1234' ){
+      if( user.value == '' || password.value == ''){
+        alert('Você não poderá prosseguir sem digitar o usuario ou a senha')
+      }else if ((user.value != 'cleber123' && user.value != 'Cleber123' )|| password.value != '1234' ){
         alert('Nome do usuário ou senha incorreta')
         user.value = '';
         password.value = '';
