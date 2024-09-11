@@ -12,7 +12,6 @@ main{
 
 .imagem{
     background-color: gray;
-    background-image: url(../images/fotoApresentação.jpeg);
     background-size: cover;
     width: 130px;
     height: 150px;
