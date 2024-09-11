@@ -116,6 +116,7 @@ button:hover{
     width: 15%;
     height: 100%;
     border-right: 1px solid black;
+    padding: 12px;
 }
 
 #labelImage{
